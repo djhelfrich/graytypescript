@@ -40,6 +40,10 @@ const logMsg = (message: any): void => {
     console.log(message)
 }
 
+let substract = function (c: number, d:number): number {
+    return c - d
+}
+
 logMsg('Hello!')
 logMsg(add(2,3))
 
